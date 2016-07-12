@@ -26,7 +26,7 @@ RUN apt-get update && \
 RUN pip3 install jupyter
 
 RUN gem update --no-document --system && \
-    gem install --no-document sciruby-full && \
+    gem install --no-document daru iruby nyaplot pry && \
     iruby register
 
 ADD . /notebooks
