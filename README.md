@@ -1,11 +1,19 @@
-# SciRuby example notebooks
+# ruby-datascience-examples
+
+ここにはRubyでデータサイエンスを行うための環境構築方法や活用のための実例があります。
+
+このプロジェクトは「Rubyを用いた初等統計解析の整備と構築」というタイトルで[2016年度Ruby Association開発助成](http://www.ruby.or.jp/ja/news/20161121.html)を受け行いました。
+
+## dockerを用いた試用方法
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/sciruby-jp/sciruby-notebooks)
 
-You can try SciRuby example notebooks without installing IRuby. Please click *launch binder* badge.
+## Bash on Windows での試用方法
 
-This repository includes a bunch of notebooks showing the functionality of iruby and scientific ruby gems.
+## Windows での試用方法
 
-Furthermore there is a Dockerfile which allows the creation of a Docker container with everything preinstalled what is needed.
-A prebuild container is available at [Docker Hub](https://registry.hub.docker.com/u/minad/sciruby-notebooks/).
+## Mac での試用方法
 
-A lot of Python examples can be found at [the IPython Gallery](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks).
+## Ubuntu Linux での試用方法
+
+## 含まれる実例リスト
+
