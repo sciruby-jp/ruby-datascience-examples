@@ -5,7 +5,6 @@
 このプロジェクトは「Rubyを用いた初等統計解析の整備と構築」というタイトルで[2016年度Ruby Association開発助成](http://www.ruby.or.jp/ja/news/20161121.html)を受け行いました。
 
 ## dockerを用いた試用方法
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/sciruby-jp/sciruby-notebooks)
 
 ## Bash on Windows での試用方法
 
