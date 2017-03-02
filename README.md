@@ -15,7 +15,7 @@
 
 ## dockerを用いた試用方法
 
-## Bash on Windows での試用方法
+## Bash on Windows, Ubuntu Linux 16.04 での試用方法
 
 ### Jupyter の install
 
@@ -46,11 +46,9 @@ jupyter-notebook
 ```
 最後に `localhost:8888` をウェブブラウザで開いてください．
 
-## Windows での試用方法
-
 ## Mac での試用方法
 
-## Ubuntu Linux での試用方法
+
 
 ## 含まれる実例リスト
 
