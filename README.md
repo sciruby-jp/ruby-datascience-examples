@@ -31,7 +31,7 @@ sudo apt install libtool libffi-dev ruby ruby-dev make git libzmq-dev autoconf p
 git clone https://github.com/zeromq/czmq
 cd czmq && ./autogen.sh && ./configure && make
 sudo make install
-sudo gem install specific_install
+sudo gem install specific_install cztop
 sudo gem specific_install https://github.com/SciRuby/iruby.git
 iruby register --force
 ```
