@@ -82,6 +82,18 @@ iruby register --force
 git clone git://github.com/sciruby-jp/ruby-datascience-examples
 jupyter-notebook ruby-datascience-examples
 ```
+
+最後に `localhost:8888` をウェブブラウザで開いてください．
+
+## Docker での試用方法
+
+Dockerをinstall後下記のコマンドを実行します。
+
+```
+docker pull sciruby/ruby-datascience-examples
+docker run -d -p 8888:8888 sciruby/ruby-datascience-examples start-notebook.sh --NotebookApp.token=''
+```
+
 最後に `localhost:8888` をウェブブラウザで開いてください．
 
 ## 含まれる実例リスト
