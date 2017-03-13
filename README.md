@@ -13,7 +13,7 @@
 
 このプロジェクトは「Rubyを用いた初等統計解析の整備と構築」というタイトルで[2016年度Ruby Association開発助成](http://www.ruby.or.jp/ja/news/20161121.html)を受け行いました。
 
-## Bash on Windows, Ubuntu Linux 16.04 での試用方法
+## Bash on Windows (Creators Update以降), もしくは Ubuntu Linux 16.04 での試用方法
 
 ### Jupyter の install
 
@@ -24,7 +24,7 @@ sudo python3 get-pip.py
 sudo pip3 install -U jupyter
 ```
 
-### iruby の install
+### irubyなど の install
 
 ```
 sudo apt install libtool libffi-dev ruby ruby-dev make git libzmq-dev autoconf pkg-config
@@ -42,6 +42,7 @@ iruby register --force
 git clone git://github.com/sciruby-jp/ruby-datascience-examples
 jupyter-notebook ruby-datascience-examples
 ```
+
 最後に `localhost:8888` をウェブブラウザで開いてください．
 
 ## Mac での試用方法
@@ -56,7 +57,7 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 ~/miniconda3/bin/conda install notebook
 ```
 
-### iruby の install
+### irubyなど の install
 
 [homebrew](https://brew.sh/)をinstall後下記のコマンドを実行します。
 
