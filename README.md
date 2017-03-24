@@ -63,14 +63,14 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 
 ```
 brew install rbenv automake gmp libtool wget
-rbenv install 2.4.0
-rbenv global 2.4.0
+rbenv install 2.4.1
+rbenv global 2.4.1
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 source ~/.bashrc
 
-brew install zeromq --HEAD
+brew install zeromq
 brew install czmq --HEAD
-sudo gem install cztop
+gem install cztop
 
 gem install specific_install daru rbplotly
 gem specific_install https://github.com/SciRuby/iruby.git
