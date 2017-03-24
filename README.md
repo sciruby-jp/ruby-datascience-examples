@@ -15,7 +15,7 @@
 
 ## Bash on Windows (Creators Update以降), もしくは Ubuntu Linux 16.04 での試用方法
 
-### Jupyter の install
+### Jupyter notebook の install
 
 ```
 sudo apt install wget python3
@@ -24,7 +24,7 @@ sudo python3 get-pip.py
 sudo pip3 install -U jupyter
 ```
 
-### irubyなど の install
+### Jupyter notebook 用 Rubyカーネルなどの install
 
 ```
 sudo apt install libtool libffi-dev ruby ruby-dev make git libzmq-dev autoconf pkg-config
@@ -47,7 +47,7 @@ jupyter-notebook ruby-datascience-examples
 
 ## Mac での試用方法
 
-### Jupyter の install
+### Jupyter notebook の install
 
 macでは[miniconda](https://conda.io/miniconda.html)を使ってJupyter notebookをinstallします。
 
@@ -57,7 +57,7 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 ~/miniconda3/bin/conda install notebook
 ```
 
-### irubyなど の install
+### Jupyter notebook 用 Rubyカーネルなどの install
 
 [homebrew](https://brew.sh/)をinstall後下記のコマンドを実行します。
 
