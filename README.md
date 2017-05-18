@@ -13,6 +13,18 @@
 
 このプロジェクトは「Rubyを用いた初等統計解析の整備と構築」というタイトルで[2016年度Ruby Association開発助成](http://www.ruby.or.jp/ja/news/20161121.html)を受け行いました。
 
+## Docker での試用方法
+
+Dockerをinstall後下記のコマンドを実行します。
+
+```
+docker pull sciruby/ruby-datascience-examples
+docker run -d -p 8888:8888 sciruby/ruby-datascience-examples start-notebook.sh --NotebookApp.token=''
+```
+
+最後に `localhost:8888` をウェブブラウザで開いてください．
+
+
 ## Bash on Windows (Creators Update以降), もしくは Ubuntu Linux 16.04 での試用方法
 
 ### Jupyter notebook の install
@@ -86,16 +98,6 @@ jupyter-notebook ruby-datascience-examples
 
 最後に `localhost:8888` をウェブブラウザで開いてください．
 
-## Docker での試用方法
-
-Dockerをinstall後下記のコマンドを実行します。
-
-```
-docker pull sciruby/ruby-datascience-examples
-docker run -d -p 8888:8888 sciruby/ruby-datascience-examples start-notebook.sh --NotebookApp.token=''
-```
-
-最後に `localhost:8888` をウェブブラウザで開いてください．
 
 ## 含まれる実例リスト
 
